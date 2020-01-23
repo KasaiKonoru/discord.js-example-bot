@@ -1,0 +1,24 @@
+{
+  "name": "Discord.js Example Bot",
+  "description": "Example Bot For Discord, Using Discord.js Library.",
+  "keywords": [
+    "node",
+    "heroku",
+    "discord"
+  ],
+
+  "env": {
+    "BOT_TOKEN": {
+      NjYyNjc2NTcyNjAzNjc4Nzkx.XinLVw.lzuIMH6N1vWwn3mtBIiMTueSVkk
+    },
+    "PREFIX": {
+      "description": "A Prefix To Run Your Bot Commands.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
